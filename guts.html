@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./src/main/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/estilos.css">
+	<link rel="stylesheet" href="./src/css/responsivo.css">
+	<style id="estilios">
+		.fundo-video::after { content: ""; height: 100%; width: 100%; position: absolute; top: 0; left: 0; background: linear-gradient(0deg, rgba(255, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%) }
+	</style>
+	<title>Berserk - The Berserk</title>
+</head>
+<body>
+		<div class="fundo-video">
+			<video class="fundo" id="video" src="./src/guts/video/2e8c76641cbe4b9fc77c8f1306948dad.mp4" autoplay loop muted>
+			</video>
+			<audio class=theme id="tema-guts" autoplay loop muted>
+				<source
+					src="./src/guts/musica/X2Download.app - Berserk OST - My Brother (Guts Rage Theme) _ 1 HOUR VERSION (128 kbps).mp3" type="audio/mpeg" />
+			</audio>
+		</div>
+		<header class="cabecalho">
+			<div class="logotipo">
+				<a href="index.html">
+					<img class="logo" id="logo-layout-button" src="./src/main/chars.png"
+						alt="marca do sacrificio" />
+				</a>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="guts.html" class="Guts" id="guts-layout-button">Guts</a></li>
+					<li><a href="griffith.html" class="Griffith" id="griffith-layout-button">Griffith</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo" src="./src/main/title.png" />
+				<p class="descricao" id="descricao">Guts é o protagonista do manga e anime "Berserk". Após sobreviver ao traumático evento conhecido como o Eclipse, onde foi traído por seus companheiros e ferido gravemente, ele se torna um caçador de demônios em busca de vingança contra Griffith, um antigo aliado que se tornou um ser demoníaco. Guts é conhecido por sua incrível habilidade com a espada e sua determinação implacável em enfrentar as forças sobrenaturais que ameaçam o mundo, enquanto lida com as cicatrizes físicas e emocionais deixadas pelo passado.</p>
+			</div>
+			<img class="persona" id="persona" src="./src/guts/fotos/pngegg.png" />
+		</main>
+</body>
+</html>
