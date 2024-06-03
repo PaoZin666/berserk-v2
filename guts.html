@@ -17,7 +17,7 @@
 		<div class="fundo-video">
 			<video class="fundo" id="video" src="./src/guts/video/2e8c76641cbe4b9fc77c8f1306948dad.mp4" autoplay loop muted>
 			</video>
-			<audio class=theme id="tema-guts" autoplay loop muted>
+			<audio class=theme id="tema-guts" autoplay loop >
 				<source
 					src="./src/guts/musica/X2Download.app - Berserk OST - My Brother (Guts Rage Theme) _ 1 HOUR VERSION (128 kbps).mp3" type="audio/mpeg" />
 			</audio>
@@ -43,5 +43,9 @@
 			</div>
 			<img class="persona" id="persona" src="./src/guts/fotos/pngegg.png" />
 		</main>
+	<script>
+		const tg = document.getElementById('tema-guts');
+                tg.volume = 0.2;
+	</script>
 </body>
 </html>
